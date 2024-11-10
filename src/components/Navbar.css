@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    margin: 0;
+    padding: 15px;
+    list-style-type: none;
+    justify-content: right;
+    background-color: #2ECC71;
+    margin-bottom: 10px;
+}
+
+.navlinks {
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navlinks:hover {
+    background-color: #2a9858;
+}
+
+.active {
+    background-color: #2a9858;
+    font-weight: bold;
+}
